@@ -1,6 +1,5 @@
-# ComputerGraphicsProjects
-# Task1
-# DrawingPanel - Java Swing Drawing Application
+# Computer Graphics Projects
+# Task1: DrawingPanel - Java Swing Drawing Application
 
 This is a simple Java Swing GUI application that allows users to draw basic shapes (`line`, `rect`, and `circle`) on a canvas by typing commands into a text field or by clicking on the canvas.
 

@@ -33,12 +33,6 @@ This is a simple Java Swing GUI application that allows users to draw basic shap
 - Java 8 or higher
 - A Java IDE or terminal to compile and run the code
 
-## Running the Application
-
-Compile and run the program:
-
-```bash
-
 ---
 
 # Task2: PPM Image Reader and JPEG Exporter
@@ -76,12 +70,6 @@ The image is shown in a scaled-up window so small images (like 2x2) are easier t
 - Java 8 or higher  
 - A terminal or Java IDE (e.g. IntelliJ, VS Code)
 
-## Running the Application
-
-### 1. Compile the code:
-```bash
-javac CreateP6.java
-javac Task2.java
 
 javac Task1.java
 java Task1

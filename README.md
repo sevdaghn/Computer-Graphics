@@ -71,8 +71,5 @@ The image is shown in a scaled-up window so small images (like 2x2) are easier t
 - A terminal or Java IDE (e.g. IntelliJ, VS Code)
 
 
-javac Task1.java
-java Task1
-
 
 

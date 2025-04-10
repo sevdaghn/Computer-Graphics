@@ -38,6 +38,51 @@ This is a simple Java Swing GUI application that allows users to draw basic shap
 Compile and run the program:
 
 ```bash
+
+---
+
+# Task2: PPM Image Reader and JPEG Exporter
+
+This is a Java program that reads and displays `.ppm` image files in both **P3 (text)** and **P6 (binary)** formats.  
+It also supports color scaling, handles both 1-byte and 2-byte per component images, and saves the result as a `.jpg` file.  
+The image is shown in a scaled-up window so small images (like 2x2) are easier to see.
+
+## Features
+
+- Read and display **P3** and **P6** PPM files
+- Automatically scales color values to 0–255
+- Supports both 1-byte and 2-byte pixel components
+- Displays the image in a Swing window (scaled for visibility)
+- Saves the output as a JPEG file (`output.jpg`)
+- Detects and reports errors in broken or incomplete files
+
+## How to Use
+
+1. Make sure the `.ppm` file you want to test is inside the `ppm_images/` folder.
+2. Run `CreateP6.java` to generate a 2x2 test image (optional).
+3. Run `Task2.java` to read the image and save it as `output.jpg`.
+
+## Project Files
+
+| File            | Description                                 |
+|-----------------|---------------------------------------------|
+| `Task2.java`    | Main program that reads, displays, and saves the image
+| `CreateP6.java` | Generates a sample P6 test file for testing (2x2 image)
+| `output.jpg`    | Exported JPEG version of the image
+| `ppm_images/`   | Folder containing test PPM files
+
+## Requirements
+
+- Java 8 or higher  
+- A terminal or Java IDE (e.g. IntelliJ, VS Code)
+
+## Running the Application
+
+### 1. Compile the code:
+```bash
+javac CreateP6.java
+javac Task2.java
+
 javac Task1.java
 java Task1
 

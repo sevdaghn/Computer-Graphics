@@ -1,5 +1,5 @@
 # Computer Graphics Projects
-# Task1: DrawingPanel - Java Swing Drawing Application
+# Task 1: DrawingPanel - Java Swing Drawing Application
 
 This is a simple Java Swing GUI application that allows users to draw basic shapes (`line`, `rect`, and `circle`) on a canvas by typing commands into a text field or by clicking on the canvas.
 
@@ -35,7 +35,7 @@ This is a simple Java Swing GUI application that allows users to draw basic shap
 
 ---
 
-# Task2: PPM Image Reader and JPEG Exporter
+# Task 2: PPM Image Reader and JPEG Exporter
 
 This is a Java program that reads and displays `.ppm` image files in both **P3 (text)** and **P6 (binary)** formats.  
 It also supports color scaling, handles both 1-byte and 2-byte per component images, and saves the result as a `.jpg` file.  
@@ -72,7 +72,7 @@ The image is shown in a scaled-up window so small images (like 2x2) are easier t
 
 ---
 
-# Task3: RGB-CMYK Converter & Color Visualization in Java 🎨
+# Task 3: RGB-CMYK Converter & Color Visualization in Java 🎨
 
 This Java project allows you to convert colors between RGB and CMYK color models, and also visualize colors in RGB and HSV color spaces.
 

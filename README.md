@@ -70,6 +70,41 @@ The image is shown in a scaled-up window so small images (like 2x2) are easier t
 - Java 8 or higher  
 - A terminal or Java IDE (e.g. IntelliJ, VS Code)
 
+---
+
+# Task3: RGB-CMYK Converter & Color Visualization in Java 🎨
+
+This Java project allows you to convert colors between RGB and CMYK color models, and also visualize colors in RGB and HSV color spaces.
+
+## 💡 What It Does
+
+- ✅ Convert RGB to CMYK
+- ✅ Convert CMYK to RGB
+- ✅ Display the selected color in a popup window
+- ✅ Draw the RGB color cube using 2D visualization
+- ✅ Render a circular HSV color space (Hue, Saturation, Value)
+
+---
+
+## 🧪 Files Overview
+
+### `Task3.java`
+A color converter with a graphical interface:
+- You can choose to convert between RGB and CMYK.
+- Enter color values in input boxes.
+- The result is shown in a message box.
+- A color panel displays the final color visually.
+
+### `Task3_RGBCube.java`
+This file draws a simplified RGB color cube using small colored squares.  
+Each square represents a unique RGB combination.
+
+### `Task3_HSV.java`
+This program creates a circular HSV color map.
+- Hue is based on angle.
+- Saturation is distance from the center.
+- Brightness is set to maximum (1.0).
+Useful to understand how HSV works visually.
 
 
 

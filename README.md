@@ -108,7 +108,7 @@ Useful to understand how HSV works visually.
 
 ---
 
-# Task4 – Pixel-Based Image Transformations in Java
+# Task 4: Pixel-Based Image Transformations in Java
 
 This project is a simple Java program that performs basic pixel-in-point transformations on an input image. The goal is to understand how individual pixels can be manipulated directly to achieve different visual effects.
 
@@ -149,10 +149,6 @@ The following operations are applied to `input.jpg`, and each result is saved as
 - Java 8 or later
 - `input.jpg` placed in the root directory
 
-## 🚀 Running the Program
-
-```bash
-javac Task4.java
-java Task4
+---
 
 

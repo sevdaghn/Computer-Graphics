@@ -106,5 +106,53 @@ This program creates a circular HSV color map.
 - Brightness is set to maximum (1.0).
 Useful to understand how HSV works visually.
 
+---
+
+# Task4 – Pixel-Based Image Transformations in Java
+
+This project is a simple Java program that performs basic pixel-in-point transformations on an input image. The goal is to understand how individual pixels can be manipulated directly to achieve different visual effects.
+
+## 📌 Transformations Applied
+
+The following operations are applied to `input.jpg`, and each result is saved as a separate `.jpg` file:
+
+1. **Negative Transformation**  
+   - Each RGB value is subtracted from 255 to invert the image.
+
+2. **Addition (+50 Brightness)**  
+   - Brightness is increased by adding 50 to each RGB value, with a limit of 255.
+
+3. **Subtraction (−50 Brightness)**  
+   - Brightness is decreased by subtracting 50 from each RGB value, limited to a minimum of 0.
+
+4. **Multiplication (×2)**  
+   - All color values are multiplied by 2 to enhance contrast.
+
+5. **Division (/2)**  
+   - All color values are divided by 2 to darken the image proportionally.
+
+6. **Grayscale (Method 1: Linear RGB Weights)**  
+   - Formula: `0.2126 * R + 0.7152 * G + 0.0722 * B`
+
+7. **Grayscale (Method 2: Luma Coding)**  
+   - Formula: `0.299 * R + 0.587 * G + 0.114 * B`
+
+## 💡 Key Concepts
+
+- Used `BufferedImage`, `Color`, and `ImageIO` from Java’s standard libraries.
+- `try-catch` is used to handle potential errors like missing files.
+- `for` loops are used to process each pixel in the image.
+- Math operations ensure color values stay between 0 and 255.
+
+## 🛠 Requirements
+
+- Java 8 or later
+- `input.jpg` placed in the root directory
+
+## 🚀 Running the Program
+
+```bash
+javac Task4.java
+java Task4
 
 

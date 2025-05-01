@@ -150,5 +150,41 @@ The following operations are applied to `input.jpg`, and each result is saved as
 - `input.jpg` placed in the root directory
 
 ---
+## Task 5: Image Histogram Visualization & Enhancement 
+
+This is a simple Java project that demonstrates how to visualize and enhance the histogram of a grayscale image using contrast stretching and histogram equalization.
+
+## 🖼️ What it does
+
+- Loads an image (`image.png`)
+- Converts it to grayscale
+- Calculates and displays the original histogram
+- Applies contrast stretching and shows the updated histogram
+- Applies histogram equalization and shows the updated histogram
+
+## 📊 Techniques Used
+
+1. **Grayscale Conversion**  
+   Converts the input image into grayscale for processing.
+
+2. **Histogram Calculation**  
+   Counts the number of pixels at each brightness level (0–255).
+
+3. **Contrast Stretching**  
+   Spreads pixel values between the minimum and maximum brightness to enhance contrast.
+
+4. **Histogram Equalization**  
+   Redistributes brightness levels more evenly across the full range using cumulative histogram (CDF).
+
+## 🧪 Output
+
+The program displays three histogram windows:
+- Original
+- Stretched
+- Equalized
+
+These help visualize the effect of each transformation on pixel distribution.
+
+---
 
 

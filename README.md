@@ -187,4 +187,31 @@ These help visualize the effect of each transformation on pixel distribution.
 
 ---
 
+# Task 6: Image Binarization with 6 Thresholding Methods
+
+This Java project performs **binarization** (black-and-white conversion) on a grayscale image using **6 different thresholding algorithms**, including both manual and automatic threshold selection.
+
+## 📌 Features
+
+- Supports the following thresholding methods:
+  1. Manual Threshold (user input)
+  2. Percent Black Selection (user input ratio)
+  3. Mean Iterative Selection
+  4. Entropy-based Selection
+  5. Minimum Error (Kittler-Illingworth)
+  6. Fuzzy Minimum Error
+
+- Outputs a separate image file for each method:
+  - `output_method1.jpg` through `output_method6.jpg`
+
+
+## 📂 Input
+
+Place an image named `input.jpg` in the same directory as the code.
+
+> Note: It is recommended to use grayscale or desaturated images for better results.
+
+---
+
+
 
